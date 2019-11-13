@@ -1,6 +1,6 @@
 require 'sinatra'
 
 get '/' do
-  "DECIMATE ALL THE THINGS MAN"
+  "BANG TIDY"
 
 end
