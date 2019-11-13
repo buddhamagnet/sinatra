@@ -1,6 +1,6 @@
 require 'sinatra'
 
 get '/' do
-  "DECIMATE"
+  "DECIMATE ALL THE THINGS"
 
 end
