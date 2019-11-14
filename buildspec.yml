@@ -1,0 +1,10 @@
+
+version: 0.1
+phases:
+  build:
+    commands:
+      - ruby ./hellotest.rb
+  post_build:
+    commands:
+      - echo Build completed on `date`
+      - ./pipeline/deploy.sh
