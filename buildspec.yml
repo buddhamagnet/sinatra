@@ -6,7 +6,6 @@ phases:
         ruby: 2.6
     commands:
       - gem install bundler:2.0.1
-    commands:
       - bundle install
   build:
     commands:
